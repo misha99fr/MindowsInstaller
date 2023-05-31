@@ -16,7 +16,7 @@ end
 local button2 = layout:addChild(GUI.button(1, 1, 8, 1, 0x4B4B4B, 0xFFFFFF, 0x0, 0xFFFFFF, "0"))
 button2.onTouch = function()
   window:remove()
-  GUI.alert("Ключ активации:Pidoras)
+  GUI.alert("Ключ активации:Pidoras")
 end
 
 local button3 = layout:addChild(GUI.button(1, 1, 8, 1, 0x4B4B4B, 0xFFFFFF, 0x0, 0xFFFFFF, "Exit"))

@@ -10,19 +10,19 @@ local label = layout:addChild(GUI.label(1, 1, 25, 1, 0xFFFFFFFF, "Mindows Setup"
 local button1 = layout:addChild(GUI.button(1, 1, 11, 1, 0x4B4B4B, 0xFFFFFF, 0x0, 0xFFFFFF, "Install"))
 button1.onTouch = function()
   window:remove()
-  GUI.alert("АХАХАХАХХАХАХАХ, хер тебе а не Mindows 10")
+  GUI.alert("Sorry, Your PC Can't Run Mindows 11")
 end
 
 local button2 = layout:addChild(GUI.button(1, 1, 8, 1, 0x4B4B4B, 0xFFFFFF, 0x0, 0xFFFFFF, "Help"))
 button2.onTouch = function()
   window:remove()
-  GUI.alert("Ключ активации:Pidoras228")
+  GUI.alert("Product Key: TGVBHIF")
 end
 
 local button3 = layout:addChild(GUI.button(1, 1, 8, 1, 0x4B4B4B, 0xFFFFFF, 0x0, 0xFFFFFF, "Exit"))
 button3.onTouch = function()
   window:remove()
-  GUI.alert("Я обиделся")
+  GUI.alert("OH, ok")
 end
 
 workspace:draw()

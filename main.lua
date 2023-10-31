@@ -1,7 +1,7 @@
 local GUI = require("GUI")
 local system = require("System")
 
-local workspace, window, menu = system.addWindow(GUI.filledWindow(1, 1, 50, 16, 0xFF180153))
+local workspace, window, menu = system.addWindow(GUI.filledWindow(1, 1, 50, 16, 0x180153))
 
 local layout = window:addChild(GUI.layout(1, 1, window.width, window.height, 1, 1))
 

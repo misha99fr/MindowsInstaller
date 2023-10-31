@@ -17,7 +17,7 @@ end
 local button2 = layout:addChild(GUI.button(1, 1, 8, 1, 0x4B4B4B, 0xFFFFFF, 0x0, 0xFFFFFF, "Help"))
 button2.onTouch = function()
   window:remove()
-  GUI.alert("Requirments: MineOS-PC, all tier3-Components, ability to think, ability to install GBSoftware Products also product Key: OTIGF-XSFHGD-FGFGH")
+  GUI.alert("Requirments: MineOS-PC, all tier3-Components, ability to think, ability to install GBSoftware Products. Product Key: OTIGF-XSFHGD-FGFGH")
 end
 
 local button3 = layout:addChild(GUI.button(1, 1, 8, 1, 0x4B4B4B, 0xFFFFFF, 0x0, 0xFFFFFF, "Exit"))
